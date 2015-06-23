@@ -15,10 +15,9 @@ def pull_metadata(metadata_link, idx):
 	f.write(html)
 	f.close()
 
-root_url = 'http://www.tourneau.com/'
+root_url = 'h'
 
-url = 'http://www.tourneau.com/seo/shop/gender/all-mens;jsessionid=EEB3C12A21DE5E69E8348238277446C2?currentIndex=12&pageSize=2000&parentCategoryId=2402&categoryId=2374&type=category'
-# all_url = 'http://www.tourneau.com/shop/gender/all-mens'
+url = 'a watch site....'
 html = requests.get(url).text
  
 soup = BeautifulSoup(html, 'html.parser')
