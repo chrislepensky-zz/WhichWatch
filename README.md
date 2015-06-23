@@ -1,3 +1,3 @@
 # WhichWatch
 
-Placeholder ReadMe for project. Classifying dress and casual watche images using machine learning.
+Placeholder ReadMe for project. Classifying dress and casual watch images using machine learning.
