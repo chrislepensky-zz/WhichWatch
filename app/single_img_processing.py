@@ -13,7 +13,7 @@ class PreprocessPredict(object):
 		self.model = model
 
 	def read(self):
-		return io.imread(fname)
+		return io.imread(self.fname)
 
 	def do_transforms(self, image):
 		img = resize(image, (300, 300, 3))
@@ -28,7 +28,6 @@ class PreprocessPredict(object):
 
 	def predict(self, image):
 		return self.model.predict(image)
-		print self.model.predict(image)
 
 
 if __name__ == '__main__':
