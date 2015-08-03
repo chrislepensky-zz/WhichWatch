@@ -4,7 +4,7 @@ from pyimage.pipeline import ImagePipeline
 from skimage.color import rgb2gray
 from sklearn.neighbors import KNeighborsClassifier
 import numpy as np
-import pickle as pkl
+import cPickle as pkl
 
 class PreprocessPredict(object):
 

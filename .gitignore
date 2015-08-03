@@ -1,0 +1,8 @@
+
+app/Lasagne/
+
+*.pkl
+
+*.jpg
+
+*.pyc

@@ -28,7 +28,8 @@ def pipeline(directory):
 
 def random_forest(pipe):
 	X_train, X_test, y_train, y_test = train_test_split(pipe.features, pipe.labels)
-	rf = RandomForestClassifier(n_estimators=500, n_jobs=-1)
+	rf = RandomForestClassifier(n_estimators=500, \
+								n_jobs=-1)
 	rf.fit(X_train, y_train)
 	y_predict = rf.predict(X_test)
 
